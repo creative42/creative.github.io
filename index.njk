@@ -1,0 +1,40 @@
+---
+title: Welcome
+layout: layouts/page.njk
+pagination:
+  data: collections.posts
+  size: 3
+  alias: posts
+  reverse: true
+eleventyNavigation:
+  key: Home
+  order: 0
+---
+
+<h1>Welcome!</h1>
+
+{{ collections.all | 
+   eleventyNavigation | 
+   eleventyNavigationToHtml | 
+   safe 
+}}
+
+{% include "partials/postslist.njk" %}
+
+<div class="pagination">
+  {% if pagination.previous %}
+    <span>
+      <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Older Articles</a>
+    </span>
+  {% else %}
+    <span class="pagination__item">&larr; Older Articles</span>
+  {% endif %}
+
+  {% if pagination.next %}
+    <span>
+      <a href="{{ pagination.href.next | url }}" class="pagination__next">Newer Articles &rarr;</a>
+    </span>
+  {% else %}
+    <span class="pagination__item">Newer Articles &rarr;</span>
+  {% endif %}
+</div>
