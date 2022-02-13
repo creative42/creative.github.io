@@ -1,0 +1,9 @@
+_site/
+node_modules/
+package-lock.json
+
+# Cached data
+_data/cms.cache.json
+
+# VS Code settings
+.vscode

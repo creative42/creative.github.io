@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+templateEngineOverride: njk,md
+---
+
+<h1>{{ title }}</h1>
+
+<time datetime="Posted {{ page.date | htmlDateString }}">{{ page.date | readableDate }} by {{ sitedata.author.name }} | A {{ 'text' | timeToRead }} read</time>
+
+{{ content | safe }}
+
+<div class="post-tag-list">
+  <span>Tags:</span>
+  {%- for tag in tags | filterTagList -%}
+    {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+    <a href="{{ tagUrl | url }}" class="post-tag" aria-label="tag link">{{ tag }}</a>
+  {%- endfor %}
+</div>
+
+{%- if collections.posts -%}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) -%}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) -%}
+  {%- if nextPost or previousPost -%}
+    <ul class="postnavigation">
+      {%- if previousPost -%}
+        <li>Previous: <a href="{{ previousPost.url | url }}" aria-label="previous url">{{ previousPost.data.title }}</a>
+        </li>
+      {%- endif -%}
+      {%- if nextPost -%}
+        <li>Next: <a href="{{ nextPost.url | url }}" aria-label="next url">{{ nextPost.data.title }}</a>
+        </li>
+      {%- endif -%}
+    </ul>
+  {%- endif -%}
+{%- endif -%}
+
+← <a href="/">Back to main index</a>

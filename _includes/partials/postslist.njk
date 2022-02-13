@@ -1,0 +1,19 @@
+<div class="card-grid">
+  {% for post in postslist %}
+    <div class="card">
+      <h3 class="card-title">
+        <a href="{{ post.url | url }}" aria-label="link to post">{{ post.data.title }}</a>
+      </h3>
+      <p class="card-date">{{ post.date | readableDate }}</p>
+      <p class="card-description">{{ post.data.description }}</p>
+      <span class="card-subtitle">Tags:</span>
+      <span class="post-tag-list">
+        {% for tag in post.data.tags %}
+          {% if tag != 'posts' %}
+            <a href="{{ '/tags/' | url }}{{ tag | slug }}" class="post-tag" aria-label="tag link">{{ tag }}</a>
+          {% endif %}
+        {% endfor %}
+      </span>
+    </div>
+  {% endfor %}
+</div>

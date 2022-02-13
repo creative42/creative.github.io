@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+permalink: /books/
+eleventyNavigation:
+  key: Books
+  order: 2
+---
+
+<h1>Books</h1>
+
+<div class="booklist">
+  {% for item in cms.allBooks %}
+    <div class="book">
+      <div><img src={{ item.image.url }} alt="{{ item.bookName }}"></div>
+      <div>
+        <span>{{ item.bookName }}</span>
+        <span>Price: ${{ item.price }}</strong>
+      </div>
+    </div>
+  {% endfor %}
+</div>
