@@ -1,6 +1,6 @@
 const fs = require("fs");
 const timeToRead = require('eleventy-plugin-time-to-read');
-const youTube = require('eleventy-plugin-youtube-video');
+//const youTube = require('eleventy-plugin-youtube-video');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -59,7 +59,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(lazyImagesPlugin);
   eleventyConfig.addPlugin(timeToRead);
-  eleventyConfig.addPlugin(youTube);
+  //eleventyConfig.addPlugin(youTube);
 
   eleventyConfig.on('beforeBuild', () => {
     // Run me before the build starts
