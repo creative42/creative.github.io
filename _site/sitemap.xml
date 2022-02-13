@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>/posts/my-first-post/</loc>
+      <lastmod>2018-05-01T00:00:00.000Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/posts/my-second-post/</loc>
+      <lastmod>2018-05-01T00:00:00.000Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/posts/my-third-post/</loc>
+      <lastmod>2021-03-11T00:00:00.000Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/posts/my-fourth-post/</loc>
+      <lastmod>2021-06-17T00:00:00.000Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/posts/</loc>
+      <lastmod>2021-10-16T15:17:44.560Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/contact/</loc>
+      <lastmod>2021-10-16T15:17:51.150Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/about/</loc>
+      <lastmod>2021-10-16T15:17:59.690Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/</loc>
+      <lastmod>2021-10-16T15:18:22.490Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/number-2/</loc>
+      <lastmod>2021-10-16T18:14:00.860Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/first-tag/</loc>
+      <lastmod>2021-10-16T18:14:00.860Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/new-posting/</loc>
+      <lastmod>2021-10-16T18:14:00.860Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/second-tag/</loc>
+      <lastmod>2021-10-16T18:14:00.860Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/tags/</loc>
+      <lastmod>2021-10-16T18:14:20.660Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>/books/</loc>
+      <lastmod>2021-12-07T20:34:52.110Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+</urlset>

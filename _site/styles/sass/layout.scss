@@ -1,0 +1,65 @@
+/* Colours from image, using https://palettegenerator.com/ */
+$darkbrown: #5b3e3f;
+$sanddollar: #e1d7b1;
+$tan: #e6e7dA;
+$laurel: #c7cdb2;
+$carafe: #8b6a56;
+$black: #000000;
+$white: #ffffff;
+
+/* General Styles ------------------------------ */
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('./fonts/OpenSans-Regular-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'eraserregular';
+  src: url('./fonts/EraserRegular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: open_sansregular, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $darkbrown;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles ------------------------------ */
+@import 'header';
+
+/* Main body Styles ----------------------------*/
+@import '_main';
+
+/* Latest posts ------------------------------ */
+@import '_latestposts';
+
+/* Pagination of Post Styles ------------------------- */
+@import '_pagination';
+
+/* Footer Styles ------------------------------ */
+@import '_footer';
+
+/* Archive Page Styles ------------------------------ */
+@import '_archivepage';
+
+/* Contact Page ------------------------------------ */
+@import '_contactpage';
+
+/* Book Page ----------------------------------------- */
+@import '_bookpage';
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Creative42</title>
+	<subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.</subtitle>
+	
+	<link href="http://localhost:8080/feed/feed.xml" rel="self"/>
+	<link href="http://localhost:8080/"/>
+	<updated>2021-06-17T00:00:00Z</updated>
+	<id>http://localhost:8080/</id>
+	<author>
+		<name>Alex Libby</name>
+		<email>test@example.com</email>
+	</author>
+	
+	<entry>
+		<title>This is my fourth post</title>
+		<link href="http://localhost:8080/posts/my-fourth-post/"/>
+		<updated>2021-06-17T00:00:00Z</updated>
+		<id>http://localhost:8080/posts/my-fourth-post/</id>
+		<content type="html">&lt;h3&gt;Hello, this is my fourth post.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my third post</title>
+		<link href="http://localhost:8080/posts/my-third-post/"/>
+		<updated>2021-03-11T00:00:00Z</updated>
+		<id>http://localhost:8080/posts/my-third-post/</id>
+		<content type="html">&lt;h3&gt;Hello, this is my third post.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my second post</title>
+		<link href="http://localhost:8080/posts/my-second-post/"/>
+		<updated>2018-05-01T00:00:00Z</updated>
+		<id>http://localhost:8080/posts/my-second-post/</id>
+		<content type="html">&lt;h3&gt;Hello, this is my second post.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/img/prague.jpg&quot; alt=&quot;Prague&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-text/2-3&quot;&gt;// this is a command
+function myCommand() {
+  let count = 0;
+  count++;
+}
+
+// Test with a line break above this line.
+console.log(&#39;My name is Alex&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Curabitur euismod vitae augue eu auctor. Suspendisse nisi quam, ornare ac tincidunt eu, consequat ornare lorem. Proin quis neque suscipit, ullamcorper libero non, rhoncus velit. In egestas odio ac lacus dapibus, a elementum eros semper. Donec faucibus nulla quam, et porttitor urna posuere eu. Donec quis diam purus. Sed sollicitudin eget arcu vel vestibulum. Pellentesque eu purus et nulla dictum malesuada. Praesent id eros ex.&lt;/p&gt;
+&lt;style&gt;  .video-container { width: 50%; margin: 0 auto; }  .video-wrapper { position: relative; padding-bottom: 56.25%; float: none; clear: both; width: 100%; height: 0; }  .video-wrapper iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }  p.video-label { font-size: 16px; font-weight: bold; text-align: center; } &lt;/style&gt; &lt;div class=&quot;video-container&quot;&gt; &lt;div class=&quot;video-wrapper&quot;&gt;     &lt;iframe src=&quot;https://www.youtube.com/embed/ix5mPa6D7ZA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;p class=&quot;video-label&quot;&gt;YouTube Video&lt;/p&gt; &lt;/div&gt;
+&lt;p&gt;Sed tincidunt ut nunc eget consequat. Pellentesque et eros ornare, dapibus mi sed, interdum diam. Mauris a odio eu ipsum suscipit sodales at ac arcu. Praesent tortor magna, placerat in tortor euismod, imperdiet rutrum sapien. Aenean et accumsan purus. Aenean id faucibus magna, et accumsan arcu. Sed rhoncus pretium felis, id dapibus sapien accumsan non.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My first post</title>
+		<link href="http://localhost:8080/posts/my-first-post/"/>
+		<updated>2018-05-01T00:00:00Z</updated>
+		<id>http://localhost:8080/posts/my-first-post/</id>
+		<content type="html">&lt;h3&gt;Hello, this is my first post.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

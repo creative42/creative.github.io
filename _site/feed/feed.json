@@ -1,0 +1,42 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Creative42",
+  "language": "en",
+  "home_page_url": "http://localhost:8080/",
+  "feed_url": "http://localhost:8080/feed/feed.json",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.",
+  "author": {
+    "name": "Alex Libby",
+    "url": "http://localhost:8080/about-me/"
+  },
+  "items": [{
+      "id": "http://localhost:8080/posts/my-fourth-post/",
+      "url": "http://localhost:8080/posts/my-fourth-post/",
+      "title": "This is my fourth post",
+      "content_html": "<h3>Hello, this is my fourth post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
+  ,
+      "date_published": "2021-06-17T00:00:00Z"
+    },{
+      "id": "http://localhost:8080/posts/my-third-post/",
+      "url": "http://localhost:8080/posts/my-third-post/",
+      "title": "This is my third post",
+      "content_html": "<h3>Hello, this is my third post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
+  ,
+      "date_published": "2021-03-11T00:00:00Z"
+    },{
+      "id": "http://localhost:8080/posts/my-second-post/",
+      "url": "http://localhost:8080/posts/my-second-post/",
+      "title": "This is my second post",
+      "content_html": "<h3>Hello, this is my second post.</h3>\n<p><img src=\"http://localhost:8080/img/prague.jpg\" alt=\"Prague\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n<pre><code class=\"language-text/2-3\">// this is a command\nfunction myCommand() {\n  let count = 0;\n  count++;\n}\n\n// Test with a line break above this line.\nconsole.log('My name is Alex');\n</code></pre>\n<p>Curabitur euismod vitae augue eu auctor. Suspendisse nisi quam, ornare ac tincidunt eu, consequat ornare lorem. Proin quis neque suscipit, ullamcorper libero non, rhoncus velit. In egestas odio ac lacus dapibus, a elementum eros semper. Donec faucibus nulla quam, et porttitor urna posuere eu. Donec quis diam purus. Sed sollicitudin eget arcu vel vestibulum. Pellentesque eu purus et nulla dictum malesuada. Praesent id eros ex.</p>\n<style>  .video-container { width: 50%; margin: 0 auto; }  .video-wrapper { position: relative; padding-bottom: 56.25%; float: none; clear: both; width: 100%; height: 0; }  .video-wrapper iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }  p.video-label { font-size: 16px; font-weight: bold; text-align: center; } </style> <div class=\"video-container\"> <div class=\"video-wrapper\">     <iframe src=\"https://www.youtube.com/embed/ix5mPa6D7ZA\" frameborder=\"0\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe> </div> <p class=\"video-label\">YouTube Video</p> </div>\n<p>Sed tincidunt ut nunc eget consequat. Pellentesque et eros ornare, dapibus mi sed, interdum diam. Mauris a odio eu ipsum suscipit sodales at ac arcu. Praesent tortor magna, placerat in tortor euismod, imperdiet rutrum sapien. Aenean et accumsan purus. Aenean id faucibus magna, et accumsan arcu. Sed rhoncus pretium felis, id dapibus sapien accumsan non.</p>\n"
+  ,
+      "date_published": "2018-05-01T00:00:00Z"
+    },{
+      "id": "http://localhost:8080/posts/my-first-post/",
+      "url": "http://localhost:8080/posts/my-first-post/",
+      "title": "My first post",
+      "content_html": "<h3>Hello, this is my first post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
+  ,
+      "date_published": "2018-05-01T00:00:00Z"
+    }
+]
+}

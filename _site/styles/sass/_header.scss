@@ -1,0 +1,46 @@
+header {
+  background-color: $carafe;
+  color: $white;
+  padding: 15px;  
+  display: flex;
+  min-height: 150px;
+  justify-content: space-evenly;
+
+  & a {
+    display: flex;
+  }
+  
+  & h1 {
+    font-family: eraserregular, sans-serif;
+    font-size: 48px;
+    padding: 0 15px 0 15px;
+  }
+  
+  & span {
+    width: 50%;
+    padding: 20px 0;
+    font-size: 36px;
+  }
+  
+  ul {
+    list-style-type: none;  
+    display: flex;
+
+    & li {
+      display: inline;
+      font-size: 24px;
+      padding-left: 10px;
+    }
+    
+    & li a {
+      text-decoration: none;
+      padding: 3px 8px;
+    }
+    
+    & a:hover {
+      background-color: $tan;
+      text-decoration: none;
+    }
+  }
+}
+
