@@ -1,0 +1,28 @@
+.tag-list {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+  
+  .tagCategory {
+    display: flex;
+    border: 1px solid $black;  
+  }
+  
+  .tagCategory > span:nth-child(1) {
+    width: 70%;
+    background-color: $tan;
+    height: 100%; 
+  }
+  
+  .tagCategory > span:nth-child(1) > a {
+    padding: 5px 10px;
+  }
+  
+  .tagCategory > span:nth-child(2) {
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    width: 30%;
+  }

@@ -1,0 +1,24 @@
+{
+  "title": "Creative42",
+  "url": "http://localhost:8080/",
+  "language": "en",
+  "welcome": "Welcome to my blog",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.",
+  "copyright": "© Not42 Design 2021",
+  "feed": {
+    "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "http://localhost:8080/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "http://localhost:8080/feed/feed.json"
+  },
+  "author": {
+    "name": "Alex Libby",
+    "email": "test@example.com",
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.",
+    "url": "http://localhost:8080/about-me/"
+  }
+}

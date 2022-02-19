@@ -1,0 +1,18 @@
+---
+permalink: /tags/
+layout: layouts/page.njk
+---
+
+<h1>Tags:</h1>
+
+<div class="tag-list">
+  {%- for tag in collections.tagList -%}
+    {%- set tagUrl -%}/tags/{{ tag | slug }}/{%- endset -%}
+    <span class="tagCategory">
+      <span>
+        <a href="{{ tagUrl | url }}" aria-label="tag link" class="post-tag">{{ tag }}</a>
+      </span>
+      <span>{{ collections[tag].length }} post(s)</span>
+    </span>
+  {%- endfor -%}
+</div>

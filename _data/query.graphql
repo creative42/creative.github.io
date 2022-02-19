@@ -1,0 +1,10 @@
+{
+  allBooks {
+    id
+    bookName
+    price
+    image {
+        url
+    }
+  }
+}

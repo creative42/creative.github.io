@@ -1,0 +1,29 @@
+---
+# sitedata comes from _data/sitedata.json
+permalink: "{{ sitedata.feed.path }}"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ sitedata.title }}</title>
+	<subtitle>{{ sitedata.feed.subtitle }}</subtitle>
+	{% set absoluteUrl %}{{ sitedata.feed.path | url | absoluteUrl(sitedata.url) }}{% endset %}
+	<link href="{{ absoluteUrl }}" rel="self"/>
+	<link href="{{ sitedata.url }}"/>
+	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	<id>{{ sitedata.feed.id }}</id>
+	<author>
+		<name>{{ sitedata.author.name }}</name>
+		<email>{{ sitedata.author.email }}</email>
+	</author>
+	{%- for post in collections.posts | reverse %}
+	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(sitedata.url) }}{% endset %}
+	<entry>
+		<title>{{ post.data.title }}</title>
+		<link href="{{ absolutePostUrl }}"/>
+		<updated>{{ post.date | rssDate }}</updated>
+		<id>{{ absolutePostUrl }}</id>
+		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+	</entry>
+	{%- endfor %}
+</feed>
