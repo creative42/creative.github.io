@@ -7,7 +7,7 @@
     "watch:sass": "sass --watch styles/sass:styles/css",
     "build:sass": "sass styles/sass:styles/css",
     "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy --pathprefix '/myblog'",
+    "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass --parallel build:*",
     "gulpbuild": "gulp build && npm run watch:eleventy",

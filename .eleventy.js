@@ -105,8 +105,6 @@ module.exports = function (eleventyConfig) {
       "html",
       "liquid"
     ],
-
-    pathPrefix: "/myblog",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: false,
