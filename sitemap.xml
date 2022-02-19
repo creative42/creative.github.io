@@ -2,99 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/myblog/posts/my-first-post/</loc>
+      <loc>/posts/my-first-post/</loc>
       <lastmod>2018-05-01T00:00:00.000Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/posts/my-second-post/</loc>
+      <loc>/posts/my-second-post/</loc>
       <lastmod>2018-05-01T00:00:00.000Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/posts/my-third-post/</loc>
+      <loc>/posts/my-third-post/</loc>
       <lastmod>2021-03-11T00:00:00.000Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/posts/my-fourth-post/</loc>
+      <loc>/posts/my-fourth-post/</loc>
       <lastmod>2021-06-17T00:00:00.000Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/about/</loc>
-      <lastmod>2022-02-19T13:49:53.873Z</lastmod>
+      <loc>/about/</loc>
+      <lastmod>2022-02-19T15:23:41.290Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/posts/</loc>
-      <lastmod>2022-02-19T13:49:53.877Z</lastmod>
+      <loc>/posts/</loc>
+      <lastmod>2022-02-19T15:23:41.290Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/books/</loc>
-      <lastmod>2022-02-19T13:49:53.877Z</lastmod>
+      <loc>/books/</loc>
+      <lastmod>2022-02-19T15:23:41.290Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/contact/</loc>
-      <lastmod>2022-02-19T13:49:53.877Z</lastmod>
+      <loc>/contact/</loc>
+      <lastmod>2022-02-19T15:23:41.290Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/</loc>
-      <lastmod>2022-02-19T13:49:53.877Z</lastmod>
+      <loc>/</loc>
+      <lastmod>2022-02-19T15:23:41.294Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/tags/</loc>
-      <lastmod>2022-02-19T13:49:53.881Z</lastmod>
+      <loc>/tags/</loc>
+      <lastmod>2022-02-19T15:23:41.298Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/tags/number-2/</loc>
-      <lastmod>2022-02-19T13:49:53.881Z</lastmod>
+      <loc>/tags/number-2/</loc>
+      <lastmod>2022-02-19T15:23:41.298Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/tags/first-tag/</loc>
-      <lastmod>2022-02-19T13:49:53.881Z</lastmod>
+      <loc>/tags/first-tag/</loc>
+      <lastmod>2022-02-19T15:23:41.298Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/tags/new-posting/</loc>
-      <lastmod>2022-02-19T13:49:53.881Z</lastmod>
+      <loc>/tags/new-posting/</loc>
+      <lastmod>2022-02-19T15:23:41.298Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>/myblog/tags/second-tag/</loc>
-      <lastmod>2022-02-19T13:49:53.881Z</lastmod>
+      <loc>/tags/second-tag/</loc>
+      <lastmod>2022-02-19T15:23:41.298Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
