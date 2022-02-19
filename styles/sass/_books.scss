@@ -1,0 +1,8 @@
+.book {
+    display: flex;
+
+    & span:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+}
