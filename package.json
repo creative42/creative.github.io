@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy --pathprefix 'creative.github.io/myblog'",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:sass --parallel build:* --pathprefix 'myblog'",
+    "build": "npm-run-all build:sass --parallel build:*",
     "gulpbuild": "gulp build && npm run watch:eleventy",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
