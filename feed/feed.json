@@ -10,29 +10,29 @@
     "url": "http://localhost:8080/about-me/"
   },
   "items": [{
-      "id": "http://localhost:8080/creative.github.io/myblog/posts/my-fourth-post/",
-      "url": "http://localhost:8080/creative.github.io/myblog/posts/my-fourth-post/",
+      "id": "http://localhost:8080/myblog/posts/my-fourth-post/",
+      "url": "http://localhost:8080/myblog/posts/my-fourth-post/",
       "title": "This is my fourth post",
       "content_html": "<h3>Hello, this is my fourth post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
   ,
       "date_published": "2021-06-17T00:00:00Z"
     },{
-      "id": "http://localhost:8080/creative.github.io/myblog/posts/my-third-post/",
-      "url": "http://localhost:8080/creative.github.io/myblog/posts/my-third-post/",
+      "id": "http://localhost:8080/myblog/posts/my-third-post/",
+      "url": "http://localhost:8080/myblog/posts/my-third-post/",
       "title": "This is my third post",
       "content_html": "<h3>Hello, this is my third post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
   ,
       "date_published": "2021-03-11T00:00:00Z"
     },{
-      "id": "http://localhost:8080/creative.github.io/myblog/posts/my-second-post/",
-      "url": "http://localhost:8080/creative.github.io/myblog/posts/my-second-post/",
+      "id": "http://localhost:8080/myblog/posts/my-second-post/",
+      "url": "http://localhost:8080/myblog/posts/my-second-post/",
       "title": "This is my second post",
-      "content_html": "<h3>Hello, this is my second post.</h3>\n<p><img src=\"http://localhost:8080/creative.github.io/myblog/img/prague.jpg\" alt=\"Prague\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n<pre><code class=\"language-text/2-3\">// this is a command\nfunction myCommand() {\n  let count = 0;\n  count++;\n}\n\n// Test with a line break above this line.\nconsole.log('My name is Alex');\n</code></pre>\n<p>Curabitur euismod vitae augue eu auctor. Suspendisse nisi quam, ornare ac tincidunt eu, consequat ornare lorem. Proin quis neque suscipit, ullamcorper libero non, rhoncus velit. In egestas odio ac lacus dapibus, a elementum eros semper. Donec faucibus nulla quam, et porttitor urna posuere eu. Donec quis diam purus. Sed sollicitudin eget arcu vel vestibulum. Pellentesque eu purus et nulla dictum malesuada. Praesent id eros ex.</p>\n<p>Sed tincidunt ut nunc eget consequat. Pellentesque et eros ornare, dapibus mi sed, interdum diam. Mauris a odio eu ipsum suscipit sodales at ac arcu. Praesent tortor magna, placerat in tortor euismod, imperdiet rutrum sapien. Aenean et accumsan purus. Aenean id faucibus magna, et accumsan arcu. Sed rhoncus pretium felis, id dapibus sapien accumsan non.</p>\n"
+      "content_html": "<h3>Hello, this is my second post.</h3>\n<p><img src=\"http://localhost:8080/myblog/img/prague.jpg\" alt=\"Prague\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n<pre><code class=\"language-text/2-3\">// this is a command\nfunction myCommand() {\n  let count = 0;\n  count++;\n}\n\n// Test with a line break above this line.\nconsole.log('My name is Alex');\n</code></pre>\n<p>Curabitur euismod vitae augue eu auctor. Suspendisse nisi quam, ornare ac tincidunt eu, consequat ornare lorem. Proin quis neque suscipit, ullamcorper libero non, rhoncus velit. In egestas odio ac lacus dapibus, a elementum eros semper. Donec faucibus nulla quam, et porttitor urna posuere eu. Donec quis diam purus. Sed sollicitudin eget arcu vel vestibulum. Pellentesque eu purus et nulla dictum malesuada. Praesent id eros ex.</p>\n<p>Sed tincidunt ut nunc eget consequat. Pellentesque et eros ornare, dapibus mi sed, interdum diam. Mauris a odio eu ipsum suscipit sodales at ac arcu. Praesent tortor magna, placerat in tortor euismod, imperdiet rutrum sapien. Aenean et accumsan purus. Aenean id faucibus magna, et accumsan arcu. Sed rhoncus pretium felis, id dapibus sapien accumsan non.</p>\n"
   ,
       "date_published": "2018-05-01T00:00:00Z"
     },{
-      "id": "http://localhost:8080/creative.github.io/myblog/posts/my-first-post/",
-      "url": "http://localhost:8080/creative.github.io/myblog/posts/my-first-post/",
+      "id": "http://localhost:8080/myblog/posts/my-first-post/",
+      "url": "http://localhost:8080/myblog/posts/my-first-post/",
       "title": "My first post",
       "content_html": "<h3>Hello, this is my first post.</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.</p>\n"
   ,

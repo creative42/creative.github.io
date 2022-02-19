@@ -3,7 +3,7 @@
 	<title>Creative42</title>
 	<subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse.</subtitle>
 	
-	<link href="http://localhost:8080/creative.github.io/myblog/feed/feed.xml" rel="self"/>
+	<link href="http://localhost:8080/myblog/feed/feed.xml" rel="self"/>
 	<link href="http://localhost:8080/"/>
 	<updated>2021-06-17T00:00:00Z</updated>
 	<id>http://localhost:8080/</id>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>This is my fourth post</title>
-		<link href="http://localhost:8080/creative.github.io/myblog/posts/my-fourth-post/"/>
+		<link href="http://localhost:8080/myblog/posts/my-fourth-post/"/>
 		<updated>2021-06-17T00:00:00Z</updated>
-		<id>http://localhost:8080/creative.github.io/myblog/posts/my-fourth-post/</id>
+		<id>http://localhost:8080/myblog/posts/my-fourth-post/</id>
 		<content type="html">&lt;h3&gt;Hello, this is my fourth post.&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
 </content>
@@ -24,9 +24,9 @@
 	
 	<entry>
 		<title>This is my third post</title>
-		<link href="http://localhost:8080/creative.github.io/myblog/posts/my-third-post/"/>
+		<link href="http://localhost:8080/myblog/posts/my-third-post/"/>
 		<updated>2021-03-11T00:00:00Z</updated>
-		<id>http://localhost:8080/creative.github.io/myblog/posts/my-third-post/</id>
+		<id>http://localhost:8080/myblog/posts/my-third-post/</id>
 		<content type="html">&lt;h3&gt;Hello, this is my third post.&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
 </content>
@@ -34,11 +34,11 @@
 	
 	<entry>
 		<title>This is my second post</title>
-		<link href="http://localhost:8080/creative.github.io/myblog/posts/my-second-post/"/>
+		<link href="http://localhost:8080/myblog/posts/my-second-post/"/>
 		<updated>2018-05-01T00:00:00Z</updated>
-		<id>http://localhost:8080/creative.github.io/myblog/posts/my-second-post/</id>
+		<id>http://localhost:8080/myblog/posts/my-second-post/</id>
 		<content type="html">&lt;h3&gt;Hello, this is my second post.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:8080/creative.github.io/myblog/img/prague.jpg&quot; alt=&quot;Prague&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:8080/myblog/img/prague.jpg&quot; alt=&quot;Prague&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-text/2-3&quot;&gt;// this is a command
 function myCommand() {
@@ -56,9 +56,9 @@ console.log(&#39;My name is Alex&#39;);
 	
 	<entry>
 		<title>My first post</title>
-		<link href="http://localhost:8080/creative.github.io/myblog/posts/my-first-post/"/>
+		<link href="http://localhost:8080/myblog/posts/my-first-post/"/>
 		<updated>2018-05-01T00:00:00Z</updated>
-		<id>http://localhost:8080/creative.github.io/myblog/posts/my-first-post/</id>
+		<id>http://localhost:8080/myblog/posts/my-first-post/</id>
 		<content type="html">&lt;h3&gt;Hello, this is my first post.&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt orci ante, eget aliquet ipsum pellentesque id. Nunc luctus ipsum nunc, et mollis enim molestie ac. Donec tincidunt at turpis id semper. Donec vel auctor nunc, mollis cursus risus. Nunc vitae nulla mollis, lobortis risus ut, rhoncus lacus. Nunc eu pulvinar erat, eget mattis ante. Aliquam semper, orci in interdum porta, orci diam porta erat, a posuere turpis felis eu ipsum.&lt;/p&gt;
 </content>
