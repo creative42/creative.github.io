@@ -1,4 +1,4 @@
-# creative42.github.io
+# Creative42 Test Blog
 
 This is a test blog site for "Beginning Eleventy" book, to be available from Apress.
 
